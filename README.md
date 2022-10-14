@@ -1,3 +1,3 @@
 # ML-project
 
-#steps
+#REMEMBER TO CLEAR OUTPUT
