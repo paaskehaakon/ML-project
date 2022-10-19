@@ -4,6 +4,7 @@
 - Better way to generate dummief for categorical data rater than pd.get_dummies()?
 - Tips to my model. how can i make it better?
 - what framework could i use to make it better? 
+- what to use stores extra for?
 
 
 # READING MATERIAL
