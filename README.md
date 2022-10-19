@@ -1,6 +1,10 @@
 # ML-project
 
-# REMEMBER TO CLEAR OUTPUT
+# questions for ta
+- Better way to generate dummief for categorical data rater than pd.get_dummies()?
+- Tips to my model. how can i make it better?
+- what framework could i use to make it better? 
+
 
 # READING MATERIAL
 https://www.kaggle.com/code/lasmith/house-price-regression-with-lightgbm
@@ -22,6 +26,22 @@ haakon: Have set up a lightgbm model that can be used to validate feature engine
 julia: Complete guide. (https://www.kaggle.com/code/ayushikaushik/eda-regression-analysis#Preprocessing-the-data)
 
 
-
-
+# suggestions for data manipulation
+- bussstop
+    - find number of bussstops close to shop
+    - represent importance level of bussstop and number of bussstops to extract some numbers
+- age distributino
+    - somehow use the dempgraphic overview to get a number on rating
+- houshold num persons
+    - maybe leave as is. integrate with what shops lie within what grunnkrets
+- income houshold
+    - again, use with what shops lie wheinin what grunnkrets to get good numbers for data
+- grunnkrets
+    - dont know
+- place hierarcy
+    - more data on the shops. Should find a way to integrate
+- stores extra
+    - leave as is. dont know what to do with it
+- stores test
+    - dont know what to do with it. 
 
