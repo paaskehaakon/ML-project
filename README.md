@@ -30,7 +30,9 @@ julia: Complete guide. (https://www.kaggle.com/code/ayushikaushik/eda-regression
 haakon: geo features
 julia: non geo features
 
-# deadline
+# deadline 26.10
+haakon: nbr stores in same lv2 within radius
+julia: read article, other geo features
 
 
 # suggestions for data manipulation
