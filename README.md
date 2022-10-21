@@ -26,6 +26,12 @@ Tips from TA: https://www.kaggle.com/code/pmarcelino/comprehensive-data-explorat
 haakon: Have set up a lightgbm model that can be used to validate feature engineering on. 
 julia: Complete guide. (https://www.kaggle.com/code/ayushikaushik/eda-regression-analysis#Preprocessing-the-data)
 
+# deadline 21.10
+haakon: geo features
+julia: non geo features
+
+# deadline
+
 
 # suggestions for data manipulation
 - bussstop
