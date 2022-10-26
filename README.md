@@ -44,8 +44,6 @@ category encoders - cat boost. sklearn interface. Pass på overfitting.
 
 Mappa alla y-värden till ett space, predikera där, mappa tillbaka till vanliga y spacet innan submission till kaggle
 
-Municipalities
-
 # suggestions for data manipulation
 - bussstop
     - find number of bussstops close to shop
