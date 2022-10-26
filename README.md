@@ -35,6 +35,17 @@ haakon: nbr stores in same lv2 within radius
 julia: read article, other geo features
 
 
+# notes 26.10
+vektorisera med numpy
+balltree göra vektoriserat
+balltree för alla buss stops, balltree för varje viktighetsnivå
+
+category encoders - cat boost. sklearn interface. Pass på overfitting.
+
+Mappa alla y-värden till ett space, predikera där, mappa tillbaka till vanliga y spacet innan submission till kaggle
+
+Municipalities
+
 # suggestions for data manipulation
 - bussstop
     - find number of bussstops close to shop
