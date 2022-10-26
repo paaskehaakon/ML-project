@@ -35,14 +35,13 @@ haakon: nbr stores in same lv2 within radius
 julia: read article, other geo features
 
 
-# notes 26.10
-vektorisera med numpy
-balltree göra vektoriserat
-balltree för alla buss stops, balltree för varje viktighetsnivå
+# notes 26.10 - To do:
+- Use balltree/numpy instead of nested for loops in geo features - Haakon jobbar med detta
+- Category encoders instead of dummy variables - cat boost. sklearn interface. Pass på overfitting.
+- Map all y to one space, predict in that space, map back to original space before submission to Kaggle
+- Revenue of stores in same lv2 in a radius of x - Julia jobbar med detta
+- Make model - gör på torsdag 27.10
 
-category encoders - cat boost. sklearn interface. Pass på overfitting.
-
-Mappa alla y-värden till ett space, predikera där, mappa tillbaka till vanliga y spacet innan submission till kaggle
 
 # suggestions for data manipulation
 - bussstop
