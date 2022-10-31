@@ -42,6 +42,11 @@ julia: read article, other geo features
 - Revenue of stores in same lv2 in a radius of x - Julia jobbar med detta
 - Make model - gör på torsdag 27.10
 
+# notes 27.10 - To do:
+- Kolla med Ruslan att alla groupby etc är rätt
+- Ta log på rätt ställe på revenue värdena, obs att inte ta log både på revenue värdena i början och i uträkningen av RMSLE - gjort
+- Fixa correlation plot - Haakon har gjort
+- Fixa categorical features av hierarchy levelsen - gjort
 
 # suggestions for data manipulation
 - bussstop
