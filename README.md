@@ -62,3 +62,5 @@ julia: read article, other geo features
 - stores test
     - dont know what to do with it. 
 
+# questions ta
+- hvordan bruke kdtree/finne avstand fra punkt til punkt. 
