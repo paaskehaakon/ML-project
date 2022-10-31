@@ -69,3 +69,9 @@ julia: read article, other geo features
 
 # questions ta
 - hvordan bruke kdtree/finne avstand fra punkt til punkt. 
+
+# MEAN REVENUE FEATURES
+- mean revenue for shops with less than x busstations within y distance
+- mean revenue for same lvl2 (DONE)
+- mean revenue for for lvl1 in same municipality
+- mean revenue for for shops how have more than x similar shops within y distance
