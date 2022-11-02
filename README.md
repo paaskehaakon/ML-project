@@ -48,6 +48,10 @@ julia: read article, other geo features
 - Fixa correlation plot - Haakon har gjort
 - Fixa categorical features av hierarchy levelsen - gjort
 
+# notes from Ruslan
+- Gör catboost eller lightgbm med enkla features, försök inte göra categorical encoding själva utan låt modellen sköta det först. Om log transformen fram och tillbaka är bra borde vi slå 5 virtual teams.
+- mean revenue per chain name är en dålig feature eftersom det är många chains med bara en store_id i, då blir det data leakage. Gör sådana features för grejer där det finns många store_ids i varje kategori, då aggregeras det. Om det är för få store_ids i varje grupp kopierar den bara = target leakage.
+
 # suggestions for data manipulation
 - bussstop
     - find number of bussstops close to shop
