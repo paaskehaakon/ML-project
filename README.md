@@ -74,8 +74,13 @@ julia: read article, other geo features
 # questions ta
 - hvordan bruke kdtree/finne avstand fra punkt til punkt. 
 
-# MEAN REVENUE FEATURES
-- mean revenue for shops with less than x busstations within y distance
-- mean revenue for same lvl2 (DONE)
-- mean revenue for for lvl1 and lvl3 in same municipality (DONE)
-- mean revenue for for shops how have more than x similar shops within y distance
+# TODO HAAKON
+- fikse sånn at csv filene lagres i en fin mappe etter hvert steg. så sjekker funksjonen om csv filen finnes. hvis den gjør det så hopper den over fuksjon steget. 
+- meadian income for households within 2 km
+- closest competitor
+- number of stores within 10km. 
+- number oh households within 2 km
+- percentage of households with income over x krones within y distance from shop
+- average age within x distance from shop
+- family size
+
