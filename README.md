@@ -83,4 +83,67 @@ julia: read article, other geo features
 - percentage of households with income over x krones within y distance from shop
 - average age within x distance from shop
 - family size
+- #- fikse sånn at csv filene lagres i en fin mappe etter hvert steg. så sjekker funksjonen om csv filen finnes. hvis den gjør det så hopper den over fuksjon steget.
+#- duplicates need to be dropped 
+#- remove stores with 0 revenue from dataset
+#- DONE mean income for households within 2 km
+#- closest competitor
+#- include stores extra in store to store features
+#- number of stores within 10km. 
+#- number oh households within 2 km
+#- percentage of households with income over x krones within y distance from shop
+#- average age within x distance from shop
+#- family size
+#- få fikse at datasettet blir dobbelt så langt
+#- categorical data inn i modellen
+#- få en rasker one to all funksjon. se på closest competitor
+#bruk kategoriske verdier ofte
+#vurdering av features etter at de har vært gjennom modellen
+#h20 for automatisert ensemble
+
+#- duplicates need to be dropped 
+#- remove stores with 0 revenue from dataset
+#- DONE mean income for households within 2 km
+#- closest competitor
+#- include stores extra in store to store features
+#- number of stores within 10km. 
+#- number oh households within 2 km
+#- percentage of households with income over x krones within y distance from shop
+#- average age within x distance from shop
+#- family size
+#- få fikse at datasettet blir dobbelt så langt
+#- categorical data inn i modellen
+#- få en rasker one to all funksjon. se på closest competitor
+#bruk kategoriske verdier ofte
+#vurdering av features etter at de har vært gjennom modellen
+#h20 for automatisert ensemble
+#log for all the values or some. check if this gives better results
+#normally distribute the data. normalize the data
+#target encoding'
+#mutual information
+#variance threshhold
+#hyperparameter tuning
+
+# MOVING FORWARD
+- # FEATURE ENGINEERING
+    - closest competitor
+    - number of housholds within x distances from shop
+    - housold mean income within x distance from shop
+    - average age within x distance from shop
+    - log all values so that they are not skewed
+    - normal distribution of all the data (fix skewed data)
+    - std, mean, median revenue og same lvl
+        - size group
+        - 
+   
+- # MODEL
+    - make the model understand categorical features
+    - target encoding
+    - mutual information
+    - variance threshhold
+    - optuna hyperparameter encoding
+- # OTHER
+    - plot feature importance
+    - investigate h20 model
+
 
