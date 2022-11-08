@@ -147,3 +147,9 @@ julia: read article, other geo features
     - investigate h20 model
 
 
+# TODO JULIA
+- fixa fler mean/median/stdev revenue per kategori där det är många store ids i en kategori
+- sätt upp en XGBoost
+- sätt upp en RandomForest
+- förenkla featuresen, inte categorical encoding. Gör catboost eller lightgbm med enkla features + log transform av target.
+- missing data
