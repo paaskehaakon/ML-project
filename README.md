@@ -84,3 +84,9 @@ julia: read article, other geo features
 - average age within x distance from shop
 - family size
 
+# TODO JULIA
+- fixa fler mean/median/stdev revenue per kategori där det är många store ids i en kategori
+- sätt upp en XGBoost
+- sätt upp en RandomForest
+- förenkla featuresen, inte categorical encoding. Gör catboost eller lightgbm med enkla features + log transform av target.
+- missing data
