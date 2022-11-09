@@ -154,3 +154,8 @@ julia: read article, other geo features
 - förenkla featuresen, inte categorical encoding. Gör catboost eller lightgbm med enkla features + log transform av target.
 - missing data
 - använd stores_extra.csv
+
+#spørsmål til studass
+- h2o modellen vår gjør ensemble feature selection osv. får vi trekk hvis vi ikke gjør det manuelt. hva om vi viser at vi har gjort det manuelt men ikke bruker det resultatet med lightgbm og catboost. 
+- category 0 i minucipality rev group
+- hvilke revenue features ungpr data leakage
