@@ -134,7 +134,7 @@ julia: read article, other geo features
     - normal distribution of all the data (fix skewed data)
     - std, mean, median revenue og same lvl
         - size group
-        - 
+    
    
 - # MODEL
     - make the model understand categorical features
