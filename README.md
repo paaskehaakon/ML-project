@@ -153,3 +153,4 @@ julia: read article, other geo features
 - sätt upp en RandomForest
 - förenkla featuresen, inte categorical encoding. Gör catboost eller lightgbm med enkla features + log transform av target.
 - missing data
+- använd stores_extra.csv
