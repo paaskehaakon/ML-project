@@ -167,12 +167,11 @@ julia: read article, other geo features
 
 # PLAN SISTA DAGARNA
 - DONE assign store ids utan municipality till närmaste municipality
-- JULIA size groups och rev groups features - fixa category split, inte hard coded värden för att dela upp, target encoding
+- DONE size groups och rev groups features - fixa category split, inte hard coded värden för att dela upp, target encoding
 - DONE fixa distribution på datan (log/normalisera/normalfördela)
 - HAAKON gör fler radius/distans features
 - HAAKON viktighetsnivå busstops
 - JULIA fler kategorier för mean revenue
-- JULIA missing values överallt (kolla särskilt municipality name)
 - total nbr people många med 0
 - HAAKON improve h2o
 - median income for households within 2 km
@@ -185,7 +184,9 @@ julia: read article, other geo features
 - other household num persons features
 - other household income features
 - check duplicate store ids dropped
+- closest same chain
 - remove outliers
+- missing values överallt
 - använd stores_extra mer?
 - skriv long notebook
 - städa upp short notebook
