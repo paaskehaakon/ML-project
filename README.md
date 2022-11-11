@@ -197,3 +197,4 @@ Ensemble piss
     - forskjellige features
     - forskjellige parameters
 - gjøre en vekting av log(predicted) revenue og stack all resultatene basert på public score. 
+ closest competitor lvl4 broken
