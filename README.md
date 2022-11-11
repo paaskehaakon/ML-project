@@ -190,6 +190,7 @@ julia: read article, other geo features
 - använd stores_extra mer?
 - skriv long notebook
 - städa upp short notebook
+- fixa så att man inte måste manuellt ta bort sista raden i output filen innan man submittar
 
 Ensemble piss
 
