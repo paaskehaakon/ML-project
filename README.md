@@ -176,7 +176,7 @@ julia: read article, other geo features
 - JULIA missing values överallt (kolla särskilt municipality name)
 - HAAKON improve h2o
 - median income for households within 2 km
-- DONE mean income for households within 2 km
+- mean income for households within 2 km
 - median/mean income for households in municipality eller municipality group
 - nbr households within 2 km
 - average age in municipality
