@@ -161,7 +161,8 @@ julia: read article, other geo features
 - h2o modellen vår gjør ensemble feature selection osv. får vi trekk hvis vi ikke gjør det manuelt. hva om vi viser at vi har gjort det manuelt men ikke bruker det resultatet med lightgbm og catboost. 
 - category 0 i minucipality rev group
 - hvilke revenue features ungpr data leakage
-
+- nan/no municipality name er i inkludert i mean?
+- how to get importance plot h2o model
 
 
 
