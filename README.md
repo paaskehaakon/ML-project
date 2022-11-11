@@ -189,3 +189,11 @@ julia: read article, other geo features
 - använd stores_extra mer?
 - skriv long notebook
 - städa upp short notebook
+
+Ensemble piss
+
+- lagre resultater med 
+    - forskjellige modeller
+    - forskjellige features
+    - forskjellige parameters
+- gjøre en vekting av log(predicted) revenue og stack all resultatene basert på public score. 
