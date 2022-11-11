@@ -161,22 +161,22 @@ julia: read article, other geo features
 - h2o modellen vår gjør ensemble feature selection osv. får vi trekk hvis vi ikke gjør det manuelt. hva om vi viser at vi har gjort det manuelt men ikke bruker det resultatet med lightgbm og catboost. 
 - category 0 i minucipality rev group
 - hvilke revenue features ungpr data leakage
-- nan/no municipality name er i inkludert i mean?
-- how to get importance plot h2o model
+
 
 
 
 # PLAN SISTA DAGARNA
-- JULIA assign store ids utan municipality till närmaste municipality
+- DONE assign store ids utan municipality till närmaste municipality
 - JULIA size groups och rev groups features - fixa category split, inte hard coded värden för att dela upp, target encoding
-- HAAKON fixa distribution på datan (log/normalisera/normalfördela)
+- DONE fixa distribution på datan (log/normalisera/normalfördela)
 - HAAKON gör fler radius/distans features
 - HAAKON viktighetsnivå busstops
 - JULIA fler kategorier för mean revenue
 - JULIA missing values överallt (kolla särskilt municipality name)
+- total nbr people många med 0
 - HAAKON improve h2o
 - median income for households within 2 km
-- mean income for households within 2 km
+- DONE mean income for households within 2 km
 - median/mean income for households in municipality eller municipality group
 - nbr households within 2 km
 - average age in municipality
