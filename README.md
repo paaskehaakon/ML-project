@@ -169,14 +169,14 @@ julia: read article, other geo features
 - DONE assign store ids utan municipality till närmaste municipality
 - DONE size groups och rev groups features - fixa category split, inte hard coded värden för att dela upp, target encoding
 - DONE fixa distribution på datan (log/normalisera/normalfördela)
-- HAAKON gör fler radius/distans features
-- HAAKON viktighetsnivå busstops
-- JULIA fler kategorier för mean revenue
-- total nbr people många med 0
-- HAAKON improve h2o
+- gör fler radius/distans features
+- (viktighetsnivå busstops)
+- fler kategorier för mean revenue
+- (total nbr people många med 0)
+- improve h2o
 - median income for households within 2 km
 - DONE mean income for households within 2 km
-- median/mean income for households in municipality eller municipality group
+- DONE median/mean income for households in municipality eller municipality group
 - nbr households within 2 km
 - average age in municipality
 - average household size municipality
@@ -184,13 +184,14 @@ julia: read article, other geo features
 - other household num persons features
 - other household income features
 - check duplicate store ids dropped
-- closest same chain
+- DONE closest same chain
 - remove outliers
 - missing values överallt
 - använd stores_extra mer?
 - skriv long notebook
 - städa upp short notebook
-- fixa så att man inte måste manuellt ta bort sista raden i output filen innan man submittar
+- DONE fixa så att man inte måste manuellt ta bort sista raden i output filen innan man submittar
+- ta bort låg/hög revenue först istället för sist
 
 Ensemble piss
 
